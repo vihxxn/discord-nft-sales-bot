@@ -31,7 +31,7 @@ type Options = {
   discordChannelId: string;
 };
 
-const WETH_ADDRESS = "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2".toLowerCase();
+const WETH_ADDRESS = "0x123b30E25973FeCd8354dd5f41Cc45A3065eF88C".toLowerCase();
 
 async function nftSalesBot(options: Options) {
   log("Setting up discord bot");
